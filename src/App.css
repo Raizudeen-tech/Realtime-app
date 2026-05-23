@@ -1,0 +1,26 @@
+.app {
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.token-input {
+  width: 100%;
+  max-width: 900px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-size: clamp(72px, 20vw, 220px);
+  font-weight: 600;
+  color: #111111;
+  letter-spacing: 1px;
+  outline: none;
+  caret-color: #111111;
+}
+
+.token-input::placeholder {
+  color: #cccccc;
+}
