@@ -33,7 +33,7 @@ const speakToken = (tokenValue) => {
     return
   }
 
-  const utterance = new SpeechSynthesisUtterance(`token no ${tokenValue}`)
+  const utterance = new SpeechSynthesisUtterance(`Number ${tokenValue}`)
   window.speechSynthesis.cancel()
   window.speechSynthesis.speak(utterance)
 }
